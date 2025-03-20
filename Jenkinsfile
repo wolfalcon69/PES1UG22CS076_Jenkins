@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './outpt'
+                    sh './output'
                 }
             }
         }
